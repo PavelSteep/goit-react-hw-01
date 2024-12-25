@@ -1,0 +1,39 @@
+.friendListItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  max-width: 150px;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.status {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.online {
+  color: green;
+}
+
+.offline {
+  color: red;
+}

@@ -40,3 +40,13 @@
 .read-the-docs {
   color: #888;
 }
+
+.component-spacing {
+  margin-bottom: 50px;
+  cursor: pointer;
+}
+
+h1 {
+  cursor: pointer;
+}
+
